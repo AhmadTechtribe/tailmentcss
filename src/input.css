@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@font-face{
+    font-family:"dentontestregular";
+    src: url("fonts/denton/dentonRegular400.otf");
+}

@@ -1,17 +1,23 @@
-    /** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {
-      backgroundImage:{
-       "layout-b": "url('images/body\ img\ 3.png')",
-      },
+    screens: {
+      "3xl": "1920px",
+      "xl": "1280px",
+      "md":"768px",
+    },
 
+    backgroundImage: {
+      img: "url(images/tailwind-1.png)",
+      "layout-b": "url(images/tailwind-2.png)",
+      "layoutc": "url('./images/ballrescrop.png')",
+      "layoutd": "url('./images/tailwind4.png')"
+    },
   },
- 
-  
 
   plugins: [],
-}
-}
-  
+};
+
+
+

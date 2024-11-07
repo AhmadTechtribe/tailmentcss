@@ -6,6 +6,7 @@ module.exports = {
       "3xl": "1920px",
       "xl": "1280px",
       "md":"768px",
+      "ma":"375px",
     },
 
     backgroundImage: {

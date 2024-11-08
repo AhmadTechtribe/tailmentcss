@@ -15,6 +15,13 @@ module.exports = {
       "layoutc": "url('./images/ballrescrop.png')",
       "layoutd": "url('./images/tailwind4.png')"
     },
+
+    fontFamily: {
+      denton: ['Denton Condensed Test', 'sans-serif'],
+    },
+    fontFamily: {
+      Montreal: ['PP Neue Montreal','sans-serif'],
+    },
   },
 
   plugins: [],

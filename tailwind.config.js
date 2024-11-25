@@ -17,11 +17,9 @@ module.exports = {
     },
 
     fontFamily: {
-      denton: ['Denton Condensed Test', 'sans-serif'],
+      denton: ['Denton Condensed Test','sans-serif'],
     },
-    fontFamily: {
-      Montreal: ['PP Neue Montreal','sans-serif'],
-    },
+   
   },
 
   plugins: [],
